@@ -24,14 +24,14 @@ https://www.aclweb.org/anthology/2021.naacl-main.149/
 
 <br>
 
-音素転写、POSタグを同時に行う音声認識モデルをtransformerで作ったよ
+TransformerベースのE2E自動音声認識を提案する。  
 ***
 
 > 先行文献と比べてどこがすごい？
 
 <br>
 
-記入欄
+
 ***
 
 > 技術や手法のキモは？
@@ -63,8 +63,13 @@ https://www.aclweb.org/anthology/2021.naacl-main.149/
 ***
 
 > 参考リンク
+- End to Endモデル
+    - 1つのNNで構成した音声認識モデルのことを指す
+    - 従来の音声認識技術では、音響モデルや言語モデル、発音辞書といった複数の部品を個々に最適化して組み合わせることで音声認識システムを構築していた
+    - https://techblog.yahoo.co.jp/entry/2020062930010545/
+
 - 音素転写
-    - 発音記号みたいなやつ
+    - 文字または記号を使用して音声の音を表すために使用されるシステム
     - https://www.netinbag.com/ja/business/what-is-phonemic-transcription.html
 - OOV
     - out of vocabulary
@@ -78,6 +83,10 @@ https://www.aclweb.org/anthology/2021.naacl-main.149/
 - KyTea
     - 京都テキスト解析ツール
     - http://www.phontron.com/kytea/index-ja.html
+- 書記素
+    - 意味上の区別を可能にする最小単位（wiki）
+    - 文字の最小単位
+        - http://www.seiryo-u.ac.jp/u/education/gakkai/h_ronsyu_pdf/13_2/11_kouno.pdf
 
 <br>
 
